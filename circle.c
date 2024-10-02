@@ -21,7 +21,7 @@ void circ(int r, char e){
     int d = 2*r;
     for(int i=0; i<=d; i++){
         for(int j=0; j<=d; j++){
-            if( sqrt(pow((j-r),2) + pow((i-r), 2)) < r ){ //Equação geral da circunferência de acordo com a geometria analítica.
+            if( sqrt(pow((j-r),2) + pow((i-r), 2)) < r ){ //Equação geral da circunferência (geometria analítica).
                 printf(" %c", e);
             }
             else{
