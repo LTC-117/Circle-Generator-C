@@ -1,3 +1,4 @@
+/* Max size recommended: radius = 250 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
